@@ -58,7 +58,6 @@
      renderer = new THREE.WebGLRenderer();
     renderer.setSize(window.innerWidth,window.innerHeight);
     document.body.appendChild(renderer.domElement);
-    :
     var texture = new THREE.TextureLoader().load('texture/crate.gif');
      var CubeGeo=new THREE.BoxGeometry(1,1,1);
      var CubeMat= new THREE.MeshBasicMaterial({map:texture
